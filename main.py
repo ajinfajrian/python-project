@@ -12,9 +12,9 @@ while n > -1:
     try:
         pyautogui.click(494,1043) # Klik box comments
         time.sleep(4)
-        n += 1
-        pyautogui.write(random.choice(word_list)+ " - " + str(n), interval=0.2)
-        time.sleep(4)
+        #n += 1
+        #pyautogui.write(random.choice(word_list)+ " - " + str(n), interval=0.2)
+        #time.sleep(4)
         pyautogui.click(900,1038) # Klik tombol kirim
         time.sleep(7)
     except KeyboardInterrupt:
