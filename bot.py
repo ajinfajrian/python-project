@@ -3,17 +3,8 @@ import pyautogui
 import time, random, signal, sys
 
 word_list = [
-        "keren bgt yaampun", 
-        "oshi siapasih ini...",
-        "gaskeunnn",
-        "selamat lebaran",
-        "minal aidzin wal faidzin",
-        "mohon maaf, lahir batin. guys",
-        "cantiikkk bgtt",
-        "aku gesrekk",
-        "ini siapasih, keren bgt",
-        "cntknya bs biasa aja?",
-        "hai nona",
+        "test 1",
+        "test",
         ]
 print("CTRL+C for stop the program")
 n = 0
