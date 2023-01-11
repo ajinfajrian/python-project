@@ -3,8 +3,8 @@ import urllib
 from datetime import datetime
 
 # global variable
-token     = "5930317051%3AAAEKT1asXjV43Fpc5hlVUMqeuxPjI_mEHdw"
-messageID = "-503556289"
+token     = "<your_token>"
+messageID = "<your_grupID>"
 typeText  = "HTML" # Markdown / HTML, default=Markdown but html more smooth than markdown
 headers = {
     "accept": "application/json",
@@ -17,17 +17,7 @@ def doaPagi():
     Text = """ 
 <b>[ DOA PAGI ]</b>
 
-Reminding for all personel shifting in gti to join weekly briefing on 8.30 am.
-
-Link Teams:
-https://bit.ly/3ay1psM
-Update Form:
-https://forms.gle/vw8XvJakEk3P3MiF7
-
-Ops:
-@Btech_Openstack
-@Btech_Instance
-@btech_k8s """
+Reminding for all personel shifting in gti to join weekly briefing on 8.30 am. """
 
     ParsedRestultText = urllib.parse.quote_plus(Text)
     response = requests.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={messageID}&text={ParsedRestultText}&parse_mode={typeText}", headers=headers)
@@ -41,15 +31,7 @@ def dailySync():
     Text = """ 
 <b>[ Daily Sync ]</b>
 
-Temen2 ops BRI yang sedang shift, mohon untuk bergabung di internal daily sync.
-
-Link Teams:
-https://s.id/btech-bri-ops-daily-sync  
-
-Ops:
-@Btech_Openstack
-@Btech_Instance
-@btech_k8s """
+Temen2 ops BRI yang sedang shift, mohon untuk bergabung di internal daily sync. """
 
 
     ParsedRestultText = urllib.parse.quote_plus(Text)
