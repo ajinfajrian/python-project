@@ -13,7 +13,7 @@ coc_clan_id = "coc_clan_id"
 
 headers = {
     'Accept': 'application/json',
-    'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjA1ZmMzMWUwLWRlMTUtNGU0My04Y2NhLTkwMDAwNzhhNGEzMiIsImlhdCI6MTcwODMzMTMyOSwic3ViIjoiZGV2ZWxvcGVyLzc3ZTAyYzU5LWI2NDMtMmRhNC1mYzQzLTA2MWI5YjczMmNhYiIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjEwMy4xNzcuNjAuNDkiLCIxMDMuMjE2LjIyMy4xMSIsIjEwMy4xNzEuMTY0LjIwOCJdLCJ0eXBlIjoiY2xpZW50In1dfQ.hk6h6JnPDvg-EwUwhTtr9_cxLeB-8SOJtbGiAx6maf8u5h2gAr8gp9NrwLv63AwqQWcxQCUx-eX2ZAhnS5433g'
+    'Authorization': 'Bearer <coc_developer_api>'
 }
 
 
