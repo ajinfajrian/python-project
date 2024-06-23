@@ -10,6 +10,7 @@ headers = {
 ```
 
 2. results on telegram chat
+
 ![image](https://github.com/ajinfajrian/python-project/assets/39956298/9cced7ae-f780-4134-b098-b0fb20bdc19c)
 
 this bot will send bout preparation and battle day info
