@@ -1,3 +1,5 @@
+This bot will remind your clan bout preparation and battle day on telegram group.
+
 1. input with your variables:
 ```sh
 tg_token     = "" ## you can create bot with botFather
